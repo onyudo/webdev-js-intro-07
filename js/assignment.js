@@ -15,19 +15,21 @@ function checkIfEven(num) {
     return num % 2 === 0;
 }
 
-
-
-
+function getTheFourthElement(arr) {
+    return arr[3];
+}
 
 function render() {
+    
     let remainder = returnTheRemainder(5, 4);
-    remainderElement.innerText = remainder; // Display the remainder
+    remainderElement.innerText = remainder; 
 
     let checkEven = checkIfEven(47);
     checkIfEvenElement.innerText = checkEven;
 
+    let fourthElement = getTheFourthElement(lostNumbers);
+    lostNumbersElement.innerText = fourthElement;
 
-    
 }
 
 submissionBtn.addEventListener("click", function () {
