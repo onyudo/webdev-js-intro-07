@@ -11,6 +11,10 @@ function returnTheRemainder(num1, num2) {
     return num1 % num2;
 }
 
+function checkIfEven(num) {
+    return num % 2 === 0;
+}
+
 
 
 
@@ -18,6 +22,11 @@ function returnTheRemainder(num1, num2) {
 function render() {
     let remainder = returnTheRemainder(5, 4);
     remainderElement.innerText = remainder; // Display the remainder
+
+    let checkEven = checkIfEven(47);
+    checkIfEvenElement.innerText = checkEven;
+
+
     
 }
 
