@@ -7,7 +7,7 @@
 // Create some functions, return a value and log that value to the console.
 
 function getNumber() {
-    const number = 42;
+    let number = 42;
     console.log(number); 
     return number;       
   }
@@ -23,7 +23,7 @@ function getString() {
 getString(); // call function. Output: Hello, World!
 
 function getBoolean() {
-    const isTrue = true;
+    let isTrue = true;
     console.log(isTrue);
     return isTrue;
 }
@@ -60,6 +60,3 @@ let area3 = calculateArea();  // Uses default width of 5 and default height of 1
 console.log(area3);  // Logs 50
 
 */
-
-
-
